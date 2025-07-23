@@ -1,0 +1,18 @@
+@media only screen and (max-width: 900px) {
+  .about {
+    flex-direction: column;
+    text-align: center;
+  }
+  .about-image img {
+    margin: 24px 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .portfolio, .about, .contact {
+    padding: 24px 2%;
+  }
+  .intro, .portfolio-content {
+    width: 100%;
+  }
+}
